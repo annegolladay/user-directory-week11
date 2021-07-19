@@ -1,5 +1,12 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
   text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
 }
 
 .App-logo {
@@ -35,4 +42,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+  background-color: blue;
+  color: black;
+}
+
+.buttonsection {
+  height: 25px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 25px;
+  width: 75%;
+}
+
+.directory {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 75%;
+  background-color: gray;
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
